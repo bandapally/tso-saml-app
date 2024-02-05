@@ -3,7 +3,7 @@ applications:
     memory: 500M
     instances: 1
     buildpacks:
-      - java_buildpack
-    path: target/tso-saml-app.jar
-    routes:
-      - route: tso-saml-app.fr.cloud.gov
+    - https://github.com/cloudfoundry/java-buildpack.git
+    path: ./target/tso-saml-app.jar
+    random-route: true
+
