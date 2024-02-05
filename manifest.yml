@@ -1,9 +1,9 @@
 applications:
   - name: tso-saml-app
-    memory: 1G
+    memory: 500M
     instances: 1
     buildpacks:
-      - https://github.com/bandapally/tso-saml-app.git
+      - java_buildpack
     path: target/tso-saml-app.jar
     routes:
       - route: tso-saml-app.fr.cloud.gov
