@@ -16,5 +16,4 @@ public class HomeController {
         model.addAttribute("userAttributes", principal.getAttributes());
         return "home";
     }
-
 }

@@ -1,16 +1,18 @@
 # TSO Spring Boot, SAML, and Okta Web Application
 
-This is TSO SAML Web application that demonstrates how to implement single sign-on (SSO) with Spring Security's SAML and Okta.
+This is TSO SAML Web application that demonstrates how to implement single sign-on (SSO) with Spring Security's SAML and IdP Okta.
 
 **Prerequisites:** 
 
 - [SDKMAN](https://sdkman.io/) (for Java 17)
-- IntelliJ Education Edition (Community Edition) along with plug-ins for maven, gradel, GIT
+- Java 21 LTS - path
+- IntelliJ Education Edition (Community Edition) along with plug-ins for maven, gradel, GIT, SonarLint
 - Maven3 - path
 - Gradle
-- Java 21 LTS - path
+- SourceTree (GIT Flows)
 - MobaXTerm - openssl for creating local certs (cygwin)
 - MongoDBServer & Client (Datastore)
+- Thymeleaf(th)
 
 > [Okta](https://developer.okta.com/) has Authentication and User Management APIs that reduce development time with instant-on, scalable user infrastructure. Okta's intuitive API and expert support make it easy for developers to authenticate, manage and secure users and roles in any application.
 
@@ -28,7 +30,9 @@ git clone https://github.com/bandapally/tso-saml-app.git
 cd tso-saml-app
 ```
 
-### Create a SAML App in Okta
+### Create a TSO SAML App in Okta
+
+![img.png](img.png)
 
 To begin, you'll need an Okta developer account. You can create one at [developer.okta.com/signup](https://developer.okta.com/signup) or install the [Okta CLI](https://cli.okta.com) and run `okta register`.
 
