@@ -10,5 +10,5 @@ applications:
       JAVA_OPTS: "-Djava.security.egd=file:///dev/urandom"
       spring_profiles_active: 'test'
       JBP_LOG_LEVEL: DEBUG
-      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 17.+ } }'
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 8.+ } }'
 
