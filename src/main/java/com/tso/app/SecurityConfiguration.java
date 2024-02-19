@@ -1,4 +1,4 @@
-package com.tso.demo;
+package com.tso.app;
 
 import java.util.HashSet;
 import java.util.List;

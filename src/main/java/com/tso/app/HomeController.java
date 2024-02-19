@@ -1,4 +1,4 @@
-package com.tso.demo;
+package com.tso.app;
 
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.saml2.provider.service.authentication.Saml2AuthenticatedPrincipal;
