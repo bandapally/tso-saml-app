@@ -9,7 +9,6 @@ applications:
     env:
       spring_profiles_active: 'test'
       JBP_LOG_LEVEL: DEBUG
-      JBP_CONFIG_TOMCAT: '{ tomcat: { version: 8.0.+ } }'
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 17.+ } }'
       
 
