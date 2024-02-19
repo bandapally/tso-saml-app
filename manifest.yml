@@ -7,9 +7,10 @@ applications:
     path: build/libs/tso-saml-app-1.0.jar
     random-route: true
     env:
-      spring_profiles_active: 'test'
+      spring_profiles_active: 'cloud'
       JBP_LOG_LEVEL: DEBUG
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 17.+ } }'
+      JBP_CONFIG_REPOSITORY: '{ default_repository_root: "https://github.com/bandapally/tso-saml-app.git" }'
       
 
 
